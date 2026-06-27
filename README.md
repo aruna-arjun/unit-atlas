@@ -99,10 +99,11 @@ git clone https://github.com/your-username/unit-atlas.git
 cd unit-atlas
 
 # 3. Open it
-# Just double-click index.html
+# Just double-click index.html, or:
+open index.html        # macOS
+start index.html       # Windows
+xdg-open index.html    # Linux
 ```
-
----
 
 ## 🤝 Contributing
 

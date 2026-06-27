@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unit Atlas — Universal Unit Converter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap">
+  <p class="eyebrow">Universal unit converter</p>
+  <h1>Unit Atlas</h1>
+  <p class="subtitle">Pick a category, type one number, and see it converted into every unit at once — no extra clicks, no separate pages.</p>
+
+  <div class="tabs" id="tabs" role="tablist" aria-label="Unit categories"></div>
+
+  <div class="panel" id="panel">
+    <div class="input-row">
+      <div class="value-field">
+        <label class="field-label" for="valueInput">Value</label>
+        <input id="valueInput" type="text" inputmode="decimal" autocomplete="off" spellcheck="false">
+      </div>
+      <div class="unit-field">
+        <label class="field-label" for="unitSelect">From unit</label>
+        <select id="unitSelect"></select>
+      </div>
+    </div>
+
+    <div class="results-grid" id="resultsGrid" aria-live="polite"></div>
+
+    <p class="hint">Tip: click any result card to make it the new starting value.</p>
+  </div>
+</div>
+
+<div class="toast" id="toast">Copied</div>
+
+<script src="script.js"></script>
+</body>
+</html>

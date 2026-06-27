@@ -105,6 +105,8 @@ start index.html       # Windows
 xdg-open index.html    # Linux
 ```
 
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome!
